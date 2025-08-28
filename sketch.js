@@ -35,14 +35,11 @@ let stripRegion = null;     // {x,y,w,h} for mouseWheel hit test
 
 // Remote presets (loaded asynchronously). If a site blocks CORS, use “➕ Try your photo”.
 const REMOTE_SOURCES = [
-  { name: 'Unsplash • Headphones', url: 'https://images.unsplash.com/photo-1505628346881-b72b27e84530?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0' },
-  { name: 'Unsplash • Dog',        url: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0' },
-  { name: 'Black Hole',            url: 'https://wallpapercat.com/w/full/1/8/6/72544-1440x2560-iphone-hd-black-hole-background-image.jpg' },
-  { name: 'Synthwave Grid',        url: 'https://images6.alphacoders.com/651/651486.png' },
-  { name: 'Autumn Forest',         url: 'https://wallpaperbat.com/img/126428310-autumn-season-beautiful-phone-wallpaper.jpg' },
-  { name: 'Black Hole',  url: 'https://freeimage.host/i/K32PxAx' },
-  { name: 'Synthwave Grid', url: 'https://freeimage.host/i/K32PItV' },
-  { name: 'Autumn Forest',  url: 'https://freeimage.host/i/K32PuoB' }
+  { name: 'Dog', url: 'https://images.unsplash.com/photo-1505628346881-b72b27e84530?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0' },
+  { name: 'Cat',        url: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0' },
+  { name: 'Interstellar',        url: 'https://raw.githubusercontent.com/miggyh27/ImgCloud/refs/heads/main/assets/72544-1440x2560-iphone-hd-black-hole-background-image.jpg' },
+  { name: 'Galaxy', url: 'https://raw.githubusercontent.com/miggyh27/ImgCloud/refs/heads/main/assets/651486.png' },
+  { name: 'Autumn Forest',  url: 'https://raw.githubusercontent.com/miggyh27/ImgCloud/92a392b6b2766fd16a08d8d3c0c087ff129f7dc1/assets/126428310-autumn-season-beautiful-phone-wallpaper.jpg' }
 ];
 
 function setup() {
